@@ -16,16 +16,8 @@ export enum InsultState {
 
 // class representing an insult that a player is asked to type
 class Insult extends React.Component<InsultProps, {state: InsultState}> {
-    constructor(props: InsultProps) {
-        super(props);
-
-        this.state = {
-            state: this.props.state
-        }
-    }
-
     render() {
-        const {state} = this.state;
+        const {state} = this.props;
         let tags = <></>;
         
         switch(state) {
