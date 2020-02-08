@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import TypingPage from "./TypingPage";
-import { Landing } from './pages/landing/landing';
+import {LandingPage} from "./LandingPage/LandingPage";
 
 interface MyProps {};
 interface MyState {
@@ -26,7 +26,7 @@ class App extends React.Component<MyProps, MyState> {
           
         </header>
         <TypingPage insults={insults}/>
-        <Landing/>
+        <LandingPage/>
       </div>
     );
   }
