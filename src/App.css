@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+.landing-button{
+  width: 100%;
+}
+
+.landing-row{
+  margin-top: 1rem;
+}
+
+.btn-primary{
+  background-color: #FF7A00 !important;
+  border-color: #FF7A00 !important;
+  color: black !important;
+}
+
+.btn-primary:hover{
+  background-color: #FFA552 !important;
+  border-color: #FFA552 !important;
+  color: black !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
