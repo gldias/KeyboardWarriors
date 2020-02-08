@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TypingPage from "./TypingPage";
+import { Landing } from './pages/landing/landing';
 
 interface MyProps {};
 interface MyState {
   testState: string,
 };
 
+// TODO: this is just here until the routing and everything is set up, so it should be removed eventually
+let insults = ["You are dumb", "Your father was a hamster and your mother smelt of elderberries", "I dislike you"];
 
 class App extends React.Component<MyProps, MyState> {
   constructor(props: any) {
@@ -20,19 +23,10 @@ class App extends React.Component<MyProps, MyState> {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and {this.state.testState} to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          
         </header>
+        <TypingPage insults={insults}/>
+        <Landing/>
       </div>
     );
   }

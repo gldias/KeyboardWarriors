@@ -1,0 +1,24 @@
+.insult {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    height: 50px;
+}
+
+.insult > div, .insult > s {
+    padding: 10px;
+    height: 100%;
+    border-left: 10px solid transparent;
+}
+
+.red {
+    color: red;
+}
+
+.greyed {
+    color: var(--lightGrey);
+}
+
+.insult .orngBorder {
+    border-left: 10px solid var(--brightOrange);
+}
