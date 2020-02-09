@@ -16,3 +16,12 @@
 .button-row{
     margin-top: 1rem;
 }
+
+.logo{
+    display:block;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}
