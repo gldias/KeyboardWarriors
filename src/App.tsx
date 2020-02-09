@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import TypingPage from "./TypingPage";
+import TypingPage from "./TypingPage/TypingPage";
 import {LandingPage} from "./LandingPage/LandingPage";
 
 interface MyProps {};
