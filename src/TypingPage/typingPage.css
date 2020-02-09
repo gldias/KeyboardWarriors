@@ -1,0 +1,20 @@
+.insult-item {
+    border: none !important;
+}
+
+.input-box {
+    margin-top: 2em;
+}
+
+.input-box input {
+    width: 100%;
+    margin: 0 15%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.typing-container {
+    width: 60% !important;
+    margin-top: 5% !important;
+}

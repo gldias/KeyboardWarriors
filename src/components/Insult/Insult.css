@@ -1,8 +1,6 @@
 .insult {
-    padding: 10px;
-    margin: 10px;
     text-align: left;
-    height: 50px;
+    height: 70px;
 }
 
 .insult > div, .insult > s {
