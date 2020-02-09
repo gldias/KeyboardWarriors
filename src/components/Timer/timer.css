@@ -1,0 +1,13 @@
+.timer {
+    
+}
+
+.time {
+    color: var(--darkGrey);
+    font-size: 50pt;
+}
+
+.timeLabel {
+    color: var(--darkGrey);
+    font-size: 15pt;
+}
