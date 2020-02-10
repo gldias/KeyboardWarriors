@@ -1,0 +1,27 @@
+.fight-button{
+    background-color: var(--brightOrange) !important;
+    border-color: var(--brightOrange) !important;
+}
+
+.leaderboard-button{
+    background-color: var(--lightOrange) !important;
+    border-color: var(--lightOrange) !important;
+}
+
+.landing-button{
+    color: black !important;
+    width: 100%;
+}
+
+.button-row{
+    margin-top: 1rem;
+}
+
+.logo{
+    display:block;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}

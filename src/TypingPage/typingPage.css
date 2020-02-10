@@ -1,0 +1,22 @@
+.input-box {
+    margin-top: 1em;
+}
+
+.input-box input {
+    width: 100%;
+    margin: 0 2%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.typing-container {
+    width: 60% !important;
+    margin-top: 4% !important;
+}
+
+.timer {
+    width: fit-content;
+    position: absolute;
+    left: 7%;
+}
