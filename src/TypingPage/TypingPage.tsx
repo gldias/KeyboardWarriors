@@ -1,6 +1,13 @@
 import React from "react";
 import Insult, {InsultState} from "../components/Insult/Insult";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
 import Timer from "../components/Timer/Timer";
+
+import logo from "../resources/keyboardWarriorWhite.png";
+
+import "./typingPage.css";
 
 export interface TypingProps {
     insults: string[];
@@ -52,15 +59,31 @@ class TypingPage extends React.Component<TypingProps, TypingState> {
         const {currentInsult, typedText} = this.state;
         
         return (
-            <>
-            <Timer ref={this._timer}/>
-            {this.props.insults.map((insult, index) => {
-                let state = (index < currentInsult ? InsultState.COMPLETE 
-                    : (index === currentInsult ? InsultState.CURRENT : InsultState.UPCOMING));
-                return <Insult key={insult} text={insult} state={state} typedText={typedText} />
-            })}
-            <input onChange={this.textChanged} value={typedText} />
-            </>
+            <div>
+                <Navbar bg="dark" variant="dark">
+                    <Navbar.Brand>
+                        <img
+                            alt="Keyboard Warriors"
+                            src={logo}
+                            width="30"
+                            height="30"
+                            className="d-inline-block align-top"
+                        />{' '}
+                        Keyboard Warriors
+                    </Navbar.Brand>
+                </Navbar>
+                <Container className="typing-container">
+                    <Timer ref={this._timer}/>
+                    {this.props.insults.map((insult, index) => {
+                        let state = (index < currentInsult ? InsultState.COMPLETE 
+                            : (index === currentInsult ? InsultState.CURRENT : InsultState.UPCOMING));
+                        return <Insult key={insult} text={insult} state={state} typedText={typedText} />
+                    })}
+                    <Row className="justify-content-md-center input-box">
+                        <input onChange={this.textChanged} value={typedText} />
+                    </Row>
+                </Container>
+            </div>
         );
     }
 }
