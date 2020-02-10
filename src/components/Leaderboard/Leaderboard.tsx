@@ -1,5 +1,4 @@
 import React from 'react';
-import kbWarriorsLogo from "../resources/keyboardWarriors.png";
 import './Leaderboard.css';
 import Table from 'react-bootstrap/Table'
 
@@ -7,7 +6,7 @@ export class Leaderboard extends React.Component {
     render() {
       return (
           <div className="leaderboard-container">
-              <h1>Top Times</h1>
+              <h1 className="leaderboard-title">Top Times</h1>
               <div className="leaderboard-table">
                 <Table borderless responsive="sm">
                     <thead>

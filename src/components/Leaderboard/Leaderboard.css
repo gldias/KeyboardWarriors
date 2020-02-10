@@ -1,0 +1,12 @@
+.leaderboard-container {
+    text-align: center;
+}
+
+.leaderboard-table {
+    width: 50rem;
+}
+
+.leaderboard-title {
+    float: left;
+    margin-left: 19rem;
+}
