@@ -23,7 +23,7 @@ class Insult extends React.Component<InsultProps, {state: InsultState}> {
         switch(state) {
             case(InsultState.COMPLETE): {
                 // strikethrough
-                tags = <s>{this.props.text}</s>;
+                tags = <div><s>{this.props.text}</s></div>;
                 break;
             }
             case(InsultState.UPCOMING): {

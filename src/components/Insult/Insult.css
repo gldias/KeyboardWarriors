@@ -1,9 +1,10 @@
 .insult {
     text-align: left;
-    height: 70px;
+    height: auto;
+    margin-top: 3%;
 }
 
-.insult > div, .insult > s {
+.insult > div {
     padding: 10px;
     height: 100%;
     border-left: 10px solid transparent;
