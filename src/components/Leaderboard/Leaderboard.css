@@ -1,0 +1,12 @@
+.leaderboard-container {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.leaderboard-table {
+    width: 50rem;
+}
+
+.leaderboard-title {
+    padding-right: 2rem;
+}
