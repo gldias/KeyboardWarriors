@@ -1,5 +1,6 @@
 .leaderboard-container {
     text-align: center;
+    margin-top: 5rem;
 }
 
 .leaderboard-table {
@@ -7,6 +8,5 @@
 }
 
 .leaderboard-title {
-    float: left;
-    margin-left: 19rem;
+    vertical-align: middle;
 }
