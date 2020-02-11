@@ -2,6 +2,7 @@ import React from 'react';
 import kbWarriorsLogo from "../resources/keyboardWarriorWhite.png";
 import { Leaderboard } from '../components/Leaderboard/Leaderboard';
 import Navbar from 'react-bootstrap/Navbar';
+import Image from 'react-bootstrap/Image';
 
 import logo from "../resources/keyboardWarriors.png";
 
@@ -26,7 +27,7 @@ export class LeaderboardPage extends React.Component {
             </Navbar>
           </div>
           <div className="leaderboard-page-content">
-            <img className="logo" src={logo} alt="A black and orange helmet"/>
+            <Image className="background-logo" src={logo} alt="A black and orange helmet" />
             <Leaderboard/>
         </div>
       </div>  
