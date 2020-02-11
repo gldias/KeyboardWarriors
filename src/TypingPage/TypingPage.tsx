@@ -61,7 +61,7 @@ class TypingPage extends React.Component<TypingProps, TypingState> {
         return (
             <div>
                 <Navbar bg="dark" variant="dark">
-                    <Navbar.Brand>
+                    <Navbar.Brand href="/">
                         <img
                             alt="Keyboard Warriors"
                             src={logo}
