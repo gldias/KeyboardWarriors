@@ -1,4 +1,4 @@
-const express = require('express')
+import express from "express";
 const app = express()
 const port = 8000
 
@@ -8,12 +8,12 @@ var insults = require('../resources/insults.json');
 //     res.send(insults);
 // }
 
-//getJson(res);
+// getJson();
 
 app.get('/insults', (req, res) => {
-    let data = req;
-    console.log(data);
-    return res.send(insults);
-  });
+  let data = req;
+  console.log(data);
+  return res.send(insults);
+});
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
