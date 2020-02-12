@@ -52,10 +52,10 @@ export class FinishModal extends React.Component<FinishProps,FinishState> {
             <Modal show={active}>
                 <Modal.Body>
                     <img className="finish"
-                        alt="Good job!"
-                        src={good}                    
+                        alt="Try harder."
+                        src={bad}                    
                     ></img>
-                    <h1 className="goodjob">Good job!</h1>
+                    <h1 className="try-harder">Try Harder.</h1>
                     <Row className="results">
                         <Col xs={6}>
                             <h4 className="result-column"><b>Speed:</b> {`${this.props.speed} char/sec`}</h4>
@@ -70,6 +70,11 @@ export class FinishModal extends React.Component<FinishProps,FinishState> {
                         </Col>
                         <Col xs={6}>
                             <Button variant="primary" className="submit-button">Ok</Button>
+                        </Col>
+                    </Row>
+                    <Row className="update-leaderboard">
+                        <Col xs={6}>
+
                         </Col>
                     </Row>
                 </Modal.Body>
