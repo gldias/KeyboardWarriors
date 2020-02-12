@@ -35,16 +35,21 @@ export class FinishModal extends React.Component<FinishProps,FinishState> {
             <Modal show={active}>
                 <Modal.Body>
                     <img className="finish"
-                        alt="Good job!"
-                        src={good}                    
+                        alt="Try harder."
+                        src={bad}                    
                     ></img>
-                    <h1 className="goodjob">Good job!</h1>
+                    <h1 className="try-harder">Try Harder.</h1>
                     <Row className="results">
                         <Col xs={6}>
                             <h4 className="result-column"><b>Speed:</b> {this.props.speed}</h4>
                         </Col>
                         <Col xs={6}>
                             <h4 className="result-column"><b>Time:</b> {this.props.time}</h4>
+                        </Col>
+                    </Row>
+                    <Row className="update-leaderboard">
+                        <Col xs={6}>
+
                         </Col>
                     </Row>
                 </Modal.Body>
