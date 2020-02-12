@@ -25,7 +25,7 @@ export class LandingPage extends React.Component {
             </Button>
           </Col>
         </Row>
-        <FinishModal active={true} speed={0} time={0}/>
+        <FinishModal active={true} speed={3.5} time={20}/>
       </Container>
     );
   }

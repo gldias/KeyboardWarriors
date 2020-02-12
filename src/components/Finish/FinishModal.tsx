@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col'
 import "./FinishModal.css";
 import good from "../../resources/goodJob.png";
 import bad from "../../resources/badJob.png";
+import Form from "react-bootstrap/Form";
+import Button from 'react-bootstrap/Button';
 
 export interface FinishProps{
     active: boolean;
@@ -27,6 +29,21 @@ export class FinishModal extends React.Component<FinishProps,FinishState> {
         };
         
     }
+
+    handleFormChange(e: any){
+        this.setState({
+            name: e.target.value
+        });
+    };
+
+    convertMilliToMMSS(milliseconds: number): string{
+        let seconds = milliseconds / 1000;
+        let hours = Math.floor(seconds / 3600);
+        seconds = seconds % 3600;
+        let minutes = Math.floor(seconds / 60);
+        seconds = seconds % 60;
+        return hours+":"+minutes+":"+seconds;
+    }
     
     render(){
         const {active, name} = this.state;
@@ -41,10 +58,18 @@ export class FinishModal extends React.Component<FinishProps,FinishState> {
                     <h1 className="goodjob">Good job!</h1>
                     <Row className="results">
                         <Col xs={6}>
-                            <h4 className="result-column"><b>Speed:</b> {this.props.speed}</h4>
+                            <h4 className="result-column"><b>Speed:</b> {`${this.props.speed} char/sec`}</h4>
                         </Col>
                         <Col xs={6}>
-                            <h4 className="result-column"><b>Time:</b> {this.props.time}</h4>
+                            <h4 className="result-column"><b>Time:</b> {this.convertMilliToMMSS(this.props.time)}</h4>
+                        </Col>
+                    </Row>
+                    <Row className="results">
+                        <Col xs={6}>
+                            <Form.Control placeholder="Name" onChange={(e: any) => this.handleFormChange(e)} value={this.state.name} />
+                        </Col>
+                        <Col xs={6}>
+                            <Button variant="primary" className="submit-button">Ok</Button>
                         </Col>
                     </Row>
                 </Modal.Body>
