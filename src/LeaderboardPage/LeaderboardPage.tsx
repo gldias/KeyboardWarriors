@@ -25,7 +25,7 @@ export class LeaderboardPage extends React.Component {
           <div className="leaderboard-page-content">
             <Leaderboard/>
           </div>
-      </div>  
+        </div>  
       );
     }
   }
