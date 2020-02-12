@@ -3,12 +3,14 @@
 
         {
             "name": "Dev",
-            "time": 0
+            "time": 0,
+            "date string": "02/12/2020"
         },
 
         {
             "name": "Dev2",
-            "time": 1
+            "time": 1,
+            "date string": "02/12/2020"
         }
     ]
 }

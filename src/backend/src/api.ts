@@ -15,5 +15,9 @@ app.get('/leaderboard', (req, res) => {
   return res.send(leaderboard);
 });
 
+app.put('/player', (req, res) => {
+  return res.send(leaderboard);
+});
+
 // tslint:disable-next-line:no-console
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
