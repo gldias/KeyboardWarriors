@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/KeyboardWarriors/static/css/main.70be105c.chunk.css",
+    "main.js": "/KeyboardWarriors/static/js/main.8e14fee3.chunk.js",
+    "main.js.map": "/KeyboardWarriors/static/js/main.8e14fee3.chunk.js.map",
+    "runtime-main.js": "/KeyboardWarriors/static/js/runtime-main.dbc262a9.js",
+    "runtime-main.js.map": "/KeyboardWarriors/static/js/runtime-main.dbc262a9.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/KeyboardWarriors/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.5792f0a2.chunk.js": "/KeyboardWarriors/static/js/2.5792f0a2.chunk.js",
+    "static/js/2.5792f0a2.chunk.js.map": "/KeyboardWarriors/static/js/2.5792f0a2.chunk.js.map",
+    "index.html": "/KeyboardWarriors/index.html",
+    "precache-manifest.b4526b01e69336cd0d4c9d81592b2ec5.js": "/KeyboardWarriors/precache-manifest.b4526b01e69336cd0d4c9d81592b2ec5.js",
+    "service-worker.js": "/KeyboardWarriors/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/KeyboardWarriors/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.70be105c.chunk.css.map": "/KeyboardWarriors/static/css/main.70be105c.chunk.css.map",
+    "static/js/2.5792f0a2.chunk.js.LICENSE.txt": "/KeyboardWarriors/static/js/2.5792f0a2.chunk.js.LICENSE.txt",
+    "static/media/keyboardWarriorWhite.png": "/KeyboardWarriors/static/media/keyboardWarriorWhite.841d9970.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbc262a9.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.5792f0a2.chunk.js",
+    "static/css/main.70be105c.chunk.css",
+    "static/js/main.8e14fee3.chunk.js"
+  ]
+}
