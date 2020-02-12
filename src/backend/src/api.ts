@@ -1,18 +1,18 @@
 import express from "express";
-const app = express()
-const port = 8000
+const app = express();
+const port = 8000;
 
 const insults = require('../../resources/insults.json');
-
-// function getJson(req, res, next){
-//     res.send(insults);
-// }
-
-// getJson();
+const leaderboard = require('../../resources/leaderboard.json')
 
 app.get('/insults', (req, res) => {
-  const data = req;
+  // const data = req;
   return res.send(insults);
+});
+
+app.get('/leaderboard', (req, res) => {
+  // const data = req;
+  return res.send(leaderboard);
 });
 
 // tslint:disable-next-line:no-console
