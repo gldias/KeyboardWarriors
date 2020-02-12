@@ -2,7 +2,7 @@ import express from "express";
 const app = express()
 const port = 8000
 
-var insults = require('../resources/insults.json');
+const insults = require('../../resources/insults.json');
 
 // function getJson(req, res, next){
 //     res.send(insults);
@@ -11,9 +11,9 @@ var insults = require('../resources/insults.json');
 // getJson();
 
 app.get('/insults', (req, res) => {
-  let data = req;
-  console.log(data);
+  const data = req;
   return res.send(insults);
 });
 
+// tslint:disable-next-line:no-console
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
