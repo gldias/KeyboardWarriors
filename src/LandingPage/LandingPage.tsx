@@ -8,6 +8,11 @@ import {Link} from 'react-router-dom';
 import "./index.css";
 
 export class LandingPage extends React.Component {
+
+  componentDidMount() {
+    document.title = "Keyboard Warriors";
+  }
+
   render() {
     return (
       <Container className="landing-container">
