@@ -29,8 +29,8 @@ export class LeaderboardPage extends React.Component {
           <div className="leaderboard-page-content">
             <Image className="background-logo" src={logo} alt="A black and orange helmet" />
             <Leaderboard/>
-        </div>
-      </div>  
+          </div>
+        </div>  
       );
     }
   }
