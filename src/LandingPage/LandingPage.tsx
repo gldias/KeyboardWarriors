@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./index.css";
+import { FinishModal } from "../components/Finish/FinishModal";
 
 export class LandingPage extends React.Component {
   render() {
@@ -24,6 +25,7 @@ export class LandingPage extends React.Component {
             </Button>
           </Col>
         </Row>
+        <FinishModal active={true} speed={0} time={0}/>
       </Container>
     );
   }
