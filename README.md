@@ -45,5 +45,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## To Run the Backend:
 
-Go to the backend directory and enter "npm run start."<br />
+Go to the backend directory and enter 'npm run start'<br />
 This will host the backend script on http://localhost:8000
