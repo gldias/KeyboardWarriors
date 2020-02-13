@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/KeyboardWarriors/static/css/main.dc54cbca.chunk.css",
-    "main.js": "/KeyboardWarriors/static/js/main.7b85af1f.chunk.js",
-    "main.js.map": "/KeyboardWarriors/static/js/main.7b85af1f.chunk.js.map",
+    "main.js": "/KeyboardWarriors/static/js/main.16dfb3b3.chunk.js",
+    "main.js.map": "/KeyboardWarriors/static/js/main.16dfb3b3.chunk.js.map",
     "runtime-main.js": "/KeyboardWarriors/static/js/runtime-main.dbc262a9.js",
     "runtime-main.js.map": "/KeyboardWarriors/static/js/runtime-main.dbc262a9.js.map",
     "static/css/2.47e06e2e.chunk.css": "/KeyboardWarriors/static/css/2.47e06e2e.chunk.css",
     "static/js/2.ce0e37a9.chunk.js": "/KeyboardWarriors/static/js/2.ce0e37a9.chunk.js",
     "static/js/2.ce0e37a9.chunk.js.map": "/KeyboardWarriors/static/js/2.ce0e37a9.chunk.js.map",
     "index.html": "/KeyboardWarriors/index.html",
-    "precache-manifest.82cbd4f6b583dc5c6ff4066d43cd866f.js": "/KeyboardWarriors/precache-manifest.82cbd4f6b583dc5c6ff4066d43cd866f.js",
+    "precache-manifest.3fc8e0978e660080713f9c6f7c7a4a45.js": "/KeyboardWarriors/precache-manifest.3fc8e0978e660080713f9c6f7c7a4a45.js",
     "service-worker.js": "/KeyboardWarriors/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/KeyboardWarriors/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.dc54cbca.chunk.css.map": "/KeyboardWarriors/static/css/main.dc54cbca.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.ce0e37a9.chunk.js",
     "static/css/main.dc54cbca.chunk.css",
-    "static/js/main.7b85af1f.chunk.js"
+    "static/js/main.16dfb3b3.chunk.js"
   ]
 }

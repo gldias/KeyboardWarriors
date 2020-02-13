@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f8fcd96078426b00dd4eb0fd6e4451b",
+    "revision": "f859396c9f3767d4a76c1e12a0611e34",
     "url": "/KeyboardWarriors/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KeyboardWarriors/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "19d4450cd89d03bf925f",
+    "revision": "1999648da6ebe10155dc",
     "url": "/KeyboardWarriors/static/css/main.dc54cbca.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KeyboardWarriors/static/js/2.ce0e37a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19d4450cd89d03bf925f",
-    "url": "/KeyboardWarriors/static/js/main.7b85af1f.chunk.js"
+    "revision": "1999648da6ebe10155dc",
+    "url": "/KeyboardWarriors/static/js/main.16dfb3b3.chunk.js"
   },
   {
     "revision": "8ed51875b999bd8c3147",
