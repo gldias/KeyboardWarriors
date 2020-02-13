@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/KeyboardWarriors/precache-manifest.107c263adc1e6ad801f394ecea0a38da.js"
+  "/KeyboardWarriors/precache-manifest.82cbd4f6b583dc5c6ff4066d43cd866f.js"
 );
 
 self.addEventListener('message', (event) => {
