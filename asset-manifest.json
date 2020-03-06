@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/KeyboardWarriors/static/css/main.dc54cbca.chunk.css",
-    "main.js": "/KeyboardWarriors/static/js/main.16dfb3b3.chunk.js",
-    "main.js.map": "/KeyboardWarriors/static/js/main.16dfb3b3.chunk.js.map",
+    "main.css": "/KeyboardWarriors/static/css/main.a0e21e93.chunk.css",
+    "main.js": "/KeyboardWarriors/static/js/main.13438066.chunk.js",
+    "main.js.map": "/KeyboardWarriors/static/js/main.13438066.chunk.js.map",
     "runtime-main.js": "/KeyboardWarriors/static/js/runtime-main.dbc262a9.js",
     "runtime-main.js.map": "/KeyboardWarriors/static/js/runtime-main.dbc262a9.js.map",
     "static/css/2.47e06e2e.chunk.css": "/KeyboardWarriors/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.ce0e37a9.chunk.js": "/KeyboardWarriors/static/js/2.ce0e37a9.chunk.js",
-    "static/js/2.ce0e37a9.chunk.js.map": "/KeyboardWarriors/static/js/2.ce0e37a9.chunk.js.map",
+    "static/js/2.1e3ee8c3.chunk.js": "/KeyboardWarriors/static/js/2.1e3ee8c3.chunk.js",
+    "static/js/2.1e3ee8c3.chunk.js.map": "/KeyboardWarriors/static/js/2.1e3ee8c3.chunk.js.map",
     "index.html": "/KeyboardWarriors/index.html",
-    "precache-manifest.3fc8e0978e660080713f9c6f7c7a4a45.js": "/KeyboardWarriors/precache-manifest.3fc8e0978e660080713f9c6f7c7a4a45.js",
+    "precache-manifest.4cf730a3ae0ab2f7ec24967b9ab06000.js": "/KeyboardWarriors/precache-manifest.4cf730a3ae0ab2f7ec24967b9ab06000.js",
     "service-worker.js": "/KeyboardWarriors/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/KeyboardWarriors/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.dc54cbca.chunk.css.map": "/KeyboardWarriors/static/css/main.dc54cbca.chunk.css.map",
-    "static/js/2.ce0e37a9.chunk.js.LICENSE.txt": "/KeyboardWarriors/static/js/2.ce0e37a9.chunk.js.LICENSE.txt",
+    "static/css/main.a0e21e93.chunk.css.map": "/KeyboardWarriors/static/css/main.a0e21e93.chunk.css.map",
+    "static/js/2.1e3ee8c3.chunk.js.LICENSE.txt": "/KeyboardWarriors/static/js/2.1e3ee8c3.chunk.js.LICENSE.txt",
+    "static/media/badJob.png": "/KeyboardWarriors/static/media/badJob.81f452a9.png",
     "static/media/keyboardWarriorWhite.png": "/KeyboardWarriors/static/media/keyboardWarriorWhite.d6d9d913.png",
-    "static/media/keyboardWarriors.png": "/KeyboardWarriors/static/media/keyboardWarriors.f043fd9d.png"
+    "static/media/keyboardWarriors.png": "/KeyboardWarriors/static/media/keyboardWarriors.f043fd9d.png",
+    "static/media/night.svg": "/KeyboardWarriors/static/media/night.022dc3c0.svg",
+    "static/media/sun.svg": "/KeyboardWarriors/static/media/sun.2c8984b4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dbc262a9.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.ce0e37a9.chunk.js",
-    "static/css/main.dc54cbca.chunk.css",
-    "static/js/main.16dfb3b3.chunk.js"
+    "static/js/2.1e3ee8c3.chunk.js",
+    "static/css/main.a0e21e93.chunk.css",
+    "static/js/main.13438066.chunk.js"
   ]
 }
